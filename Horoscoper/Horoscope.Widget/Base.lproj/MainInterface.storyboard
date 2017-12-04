@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="Horoscope_Widget" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u0v-7m-r0E">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="leo" translatesAutoresizingMaskIntoConstraints="NO" id="UaT-Qd-cfG">
+                                        <rect key="frame" x="30" y="25" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jul 23 - Aug 22" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cS-ST-PKE">
+                                        <rect key="frame" x="106" y="52" width="212" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LEO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1t9-VL-ddi">
+                                        <rect key="frame" x="106" y="33" width="214" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="22"/>
+                                        <color key="textColor" red="0.73333333329999995" green="0.2784313725" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXq-ii-8Cq">
+                                        <rect key="frame" x="16" y="102" width="289" height="190"/>
+                                        <string key="text">Get organized in the morning because later you're going to be more scattered. If you start with a solid plan for how to tackle the day's tasks, you're more likely to accomplish everything. If you don't remain strong and on task, other people will take advantage of your generous nature. You could end up doing more favors than work.</string>
+                                        <color key="textColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20784313730000001" green="0.1058823529" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uXq-ii-8Cq" secondAttribute="trailing" constant="15" id="Aa4-zA-lqs"/>
+                                    <constraint firstItem="uXq-ii-8Cq" firstAttribute="top" secondItem="u0v-7m-r0E" secondAttribute="top" constant="102" id="TYz-2q-fdy"/>
+                                    <constraint firstAttribute="bottom" secondItem="uXq-ii-8Cq" secondAttribute="bottom" constant="8" id="hQa-AN-M2F"/>
+                                    <constraint firstItem="uXq-ii-8Cq" firstAttribute="leading" secondItem="u0v-7m-r0E" secondAttribute="leading" constant="16" id="ygz-Au-wmC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="u0v-7m-r0E" secondAttribute="trailing" id="IFH-Qb-DqW"/>
+                            <constraint firstItem="u0v-7m-r0E" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="Mty-8a-Pdb"/>
+                            <constraint firstAttribute="bottom" secondItem="u0v-7m-r0E" secondAttribute="bottom" id="T1M-8K-Xbq"/>
+                            <constraint firstItem="u0v-7m-r0E" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" id="rQj-Vc-IgH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="300"/>
+                    <connections>
+                        <outlet property="dateTextLabel" destination="2cS-ST-PKE" id="e70-HN-YZZ"/>
+                        <outlet property="descriptionTextView" destination="uXq-ii-8Cq" id="40b-S9-hVg"/>
+                        <outlet property="iconImageView" destination="UaT-Qd-cfG" id="YSs-nr-jAT"/>
+                        <outlet property="nameTextLabel" destination="1t9-VL-ddi" id="ISK-cC-o4Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.600000000000001" y="31.484257871064472"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="leo" width="960" height="1067"/>
+    </resources>
+</document>

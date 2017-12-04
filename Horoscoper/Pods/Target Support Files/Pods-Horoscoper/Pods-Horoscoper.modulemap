@@ -1,0 +1,6 @@
+framework module Pods_Horoscoper {
+  umbrella header "Pods-Horoscoper-umbrella.h"
+
+  export *
+  module * { export * }
+}
