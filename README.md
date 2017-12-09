@@ -1,7 +1,7 @@
-# Horoscoper
+## Horoscoper
 Horoscope project for iOS with Swift 4.
 
-# Images
+## Images
 <div>
   <img width="200" src="/ScreenShots/IMG_1724.png">
   <img width="200" src="/ScreenShots/IMG_1725.png">
@@ -12,14 +12,12 @@ Horoscope project for iOS with Swift 4.
   <img width="200" src="/ScreenShots/IMG_1731.png">
 </div>
 
-# Requirement
-
+## Requirement
 * iOS 11
 * Swift 4
 * Xcode 9
 
 ## To do list
-
   - [ ] Local storage
   - [ ] Today Extension
   - [ ] Sticker Pack Extension
@@ -27,5 +25,4 @@ Horoscope project for iOS with Swift 4.
   - [ ] SiriKit
 
 ## License
-
 Horoscoper is released under the [MIT License](LICENSE).
