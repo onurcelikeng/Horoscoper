@@ -23,6 +23,12 @@ Horoscope project for iOS with Swift 4.
 - If you **have a feature request**, open an issue.
 - If you **want to contribute**, submit a pull request.
 
+## Download
+Simply navigate to your directory of interest, then clone.
+
+```bash
+$ git clone https://github.com/onurcelikeng/Horoscoper.git
+```
 
 ## To do list
   - [x] Local storage
