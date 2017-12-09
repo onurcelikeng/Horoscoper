@@ -18,7 +18,7 @@ Horoscope project for iOS with Swift 4.
 * Swift 4
 * Xcode 9
 
-# To do list
+## To do list
 
   - [ ] Local storage
   - [ ] Today Extension
