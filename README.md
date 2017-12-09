@@ -25,3 +25,7 @@ Horoscope project for iOS with Swift 4.
   - [ ] Sticker Pack Extension
   - [ ] Local Notification
   - [ ] SiriKit
+
+## License
+
+Horoscoper is released under the [MIT License](LICENSE).
