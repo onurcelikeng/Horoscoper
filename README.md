@@ -30,7 +30,7 @@ $ git clone https://github.com/onurcelikeng/Horoscoper.git
 ```
 
 ## To-do list
-  - [x] Local storage
+  - [x] Local Storage
   - [x] Today Extension
   - [x] Sticker Pack Extension
   - [x] Local Notification
