@@ -26,7 +26,7 @@ Horoscope project for iOS with Swift 4.
 
 ## Authors
 
-* **Onur Celik** - *Initial work* - [Onur Celik](https://github.com/onurcelikeng)
+* *Onur Celik* - [GitHub](https://github.com/onurcelikeng)
 
 
 ## License
