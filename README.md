@@ -17,6 +17,13 @@ Horoscope project for iOS with Swift 4.
 * Swift 4
 * Xcode 9
 
+## Communication
+
+- If you **found a bug**, open an issue.
+- If you **have a feature request**, open an issue.
+- If you **want to contribute**, submit a pull request.
+
+
 ## To do list
   - [x] Local storage
   - [x] Today Extension
