@@ -3,7 +3,7 @@ Horoscope project for iOS with Swift 4.
 
 # Images
 
-![](/ScreenShots/IMG_1724.png "Optional Title")
+![](/ScreenShots/IMG_1724.png)
 
 # Requirement
 
