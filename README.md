@@ -3,7 +3,7 @@ Horoscope project for iOS with Swift 4.
 
 # Images
 
-![](/ScreenShots/IMG_1724.png){:height="50%" width="50%"}
+![main](/ScreenShots/IMG_1724.png){:height="700px" width="400px"}
 
 # Requirement
 
