@@ -18,10 +18,10 @@ Horoscope project for iOS with Swift 4.
 * Xcode 9
 
 ## To do list
-  - [ ] Local storage
-  - [ ] Today Extension
-  - [ ] Sticker Pack Extension
-  - [ ] Local Notification
+  - [x] Local storage
+  - [x] Today Extension
+  - [x] Sticker Pack Extension
+  - [x] Local Notification
   - [ ] SiriKit
 
 ## License
