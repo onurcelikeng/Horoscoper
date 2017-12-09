@@ -2,8 +2,10 @@
 Horoscope project for iOS with Swift 4.
 
 # Images
-<img width="300" alt="" src="/ScreenShots/IMG_1724.png">
-<img width="300" alt="" src="/ScreenShots/IMG_1725.png">
+<div>
+  <img width="300" alt="" src="/ScreenShots/IMG_1724.png">
+  <img width="300" alt="" src="/ScreenShots/IMG_1725.png">
+</div>
 
 # Requirement
 
