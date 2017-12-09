@@ -24,5 +24,10 @@ Horoscope project for iOS with Swift 4.
   - [x] Local Notification
   - [ ] SiriKit
 
+## Authors
+
+* **Onur Celik** - *Initial work* - [Onur Celik](https://github.com/onurcelikeng)
+
+
 ## License
 Horoscoper is released under the [MIT License](LICENSE).
