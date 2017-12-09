@@ -1,5 +1,5 @@
 # Horoscoper
-> Horoscope project for iOS with Swift 4.
+>Horoscope project for iOS with Swift 4.
 
 ## Images
 <div>
