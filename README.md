@@ -45,6 +45,7 @@ $ git clone https://github.com/onurcelikeng/Horoscoper.git
 
 ## Authors
 * **Onur Celik** - [GitHub](https://github.com/onurcelikeng)
+* **Elif Seray Donmez** - [GitHub](https://github.com/esdonmez)
 
 ## License
 Horoscoper is released under the [MIT License](LICENSE).
