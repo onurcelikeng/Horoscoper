@@ -10,7 +10,7 @@ import Foundation
 import SwiftSoup
 
 class HoroscopeService: NSObject {
-    let asd: String = "https://www.horoscope.com/us/horoscopes/"
+    let baseUrl: String = "https://www.horoscope.com/us/horoscopes/"
 
     
     public static func getSunSign(sign: String, time: String, completionHandler: @escaping (String) -> Void)  {
@@ -91,8 +91,8 @@ class HoroscopeService: NSObject {
             let document: Document = try SwiftSoup.parse(html as String)
             if let data: Elements = try document.select("div.matches div.col div.row") {
                 for element in data {
-                    let asd = try element.getAllElements()
-                    for textNode in asd {
+                    let textNodes = try element.getAllElements()
+                    for textNode in textNodes {
                         let name = try textNode.select("div.col a h4").text()
                         let type = try textNode.select("div.col a h5").text()
                         if name != "",  type != "" {
