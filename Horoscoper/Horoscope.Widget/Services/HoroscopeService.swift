@@ -10,7 +10,7 @@ import Foundation
 import SwiftSoup
 
 class HoroscopeService: NSObject {
-    let asd: String = "https://www.horoscope.com/us/horoscopes/"
+    let baseUrl: String = "https://www.horoscope.com/us/horoscopes/"
     
     
     public static func getSunSign(sign: String, time: String, completionHandler: @escaping (String) -> Void)  {
